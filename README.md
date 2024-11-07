@@ -17,6 +17,57 @@ This project demonstrates the use of **Hierarchical Clustering** to categorize i
 
 In this project, we utilize the **Agglomerative Clustering** algorithm from the `sklearn` library to group invoice records based on various features. The primary goal is to discover hidden patterns in the data and use them for further analysis, such as identifying product types with similar characteristics, customer buying behaviors, etc.
 
+Project Structure** section. This will give clear details about your folder organization, which includes an `images` folder, a `dataset` folder, and the Python code file. 
+
+ns Clustering Project
+
+This project demonstrates the application of KMeans clustering on a dataset to visualize and analyze the data.
+
+## Project Structure
+
+The project is organized as follows:
+
+```
+KMeans-Clustering-Project/
+│
+├── images/               # Folder to store visualizations and plots
+│   ├── Cluster Plot.png  # Clustering visualization plot
+│   └── Dendrogram.png    # Dendrogram showing hierarchical clustering
+│
+├── dataset/              # Folder to store the dataset files
+│   └── dataset.csv       # The dataset used for clustering analysis
+│
+├── KMeans_Clustering.py  # Python code to run the KMeans clustering analysis
+```
+
+### Folder Details:
+
+- **`images/`**: Contains visual representations of the clustering results and dendrograms.
+- **`dataset/`**: Stores the dataset in CSV format that is used for analysis.
+- **`KMeans_Clustering.py`**: The Python script containing the KMeans clustering implementation, data preprocessing, and visualization code.
+
+## How to Run
+
+1. Download or clone this repository to your local machine.
+2. Make sure you have the required libraries installed:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the Python code using:
+   ```bash
+   python KMeans_Clustering.py
+   ```
+
+The project will generate visualizations and clustering results, saved in the `images/` folder.
+
+
+### Explanation:
+
+- **Project Structure Section**: Clearly outlines the folder and file structure of the project, including the `images`, `dataset`, and Python code file.
+- **Details of Each Folder**: Explains the purpose of each folder (`images`, `dataset`, and `KMeans_Clustering.py`).
+- **How to Run**: Gives the user instructions on how to run the project locally, including dependency installation and running the Python script.
+
+
 ## Data Description
 
 The dataset contains invoice information for an online retailer. The columns used for clustering are:
@@ -101,7 +152,7 @@ After applying **Agglomerative Clustering** (Hierarchical Clustering), the datas
 
 To visualize the clustering results, here is a plot showing how the data points were grouped based on their `Quantity` and `UnitPrice`:
 
-![Cluster Plot](C:\Users\Dnyanesh's Asus\Desktop\IdeaProjects\Data Science\Hierarchial-Clustering-Project\images\Cluster Plot.png)
+![Cluster Plot](https://github.com/DnyaneshU/Hierarchial-Clustering-Project/blob/main/images/Cluster%20Plot.png)
 
 This plot shows the different clusters as distinct colors, and you can observe the separation of products with similar characteristics.
 
@@ -109,7 +160,7 @@ This plot shows the different clusters as distinct colors, and you can observe t
 
 If you applied hierarchical clustering, here's a **dendrogram** that visually represents how the clusters were merged:
 
-![Dendrogram](C:\Users\Dnyanesh's Asus\Desktop\IdeaProjects\Data Science\Hierarchial-Clustering-Project\Dendrogram.png)
+![Dendrogram](https://github.com/DnyaneshU/Hierarchial-Clustering-Project/blob/main/images/Dendrogram.png)
 
 The dendrogram helps to understand the hierarchical relationships between clusters and provides insight into the distance at which they were merged.
 
